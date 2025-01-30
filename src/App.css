@@ -1,0 +1,36 @@
+/* Estilo geral */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f5f5dc;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  form {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  input {
+    margin: 0;
+    width: auto;
+    flex-grow: 1;
+  }
+
+  button {
+    width: auto;
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    justify-content: flex-start;
+  }
+}

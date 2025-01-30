@@ -1,0 +1,33 @@
+li {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%; 
+  max-width: 300px;
+  box-sizing: border-box;
+  background: yellowgreen;
+  text-align: center;
+}
+
+li img {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: black;
+  padding: 5px;
+  width: 100%;
+  max-width: 250px;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
